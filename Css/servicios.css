@@ -31,7 +31,7 @@ body::-webkit-scrollbar-thumb{
     /* ====== HEADER =======*/
 
 header{
-    background-image: url(/Evaluacion-4/imagenes/banner321.jpg);
+    background-image: url(/imagenes/banner321.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     width: 960px;
