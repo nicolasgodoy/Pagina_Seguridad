@@ -1,0 +1,546 @@
+
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+    background-image: url(/Evaluacion-4/imagenes/fondoNosotros.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+
+body::-webkit-scrollbar{
+    width:5px;
+   
+    
+  }
+  
+   
+body::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius:15px;
+  }
+
+
+
+  header{
+    /* background-color: rgb(12, 12, 12); */
+    width: 960px;
+    height: 300px;
+    margin: 0px auto;
+}
+
+
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family:Anton;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(253, 253, 253, 0.493);
+    
+}
+
+.icono{
+        
+    font-size: 18px;
+    text-align: center;
+    position:relative;
+    bottom:5px;
+    padding:2px;
+}
+
+/* MENU DESPLEGABLE */
+
+
+.botonesnav ul{
+	list-style-type: none;
+    text-align: center;
+	padding:0;
+    
+    
+}
+
+
+
+.Menu-nav{
+    position: relative;
+    top:80px;
+    
+ }
+    
+.Menu-nav li {
+	position: relative;
+	display: inline-block;
+    margin:5px;
+   
+}
+
+.Menu-nav li a {
+	display:block;
+    font-size: 40px;
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 1.7px solid #fff;
+}
+
+
+
+
+.Menu-nav li a:hover {
+    background-color: rgba(21, 24, 29, 0.842);
+    color:rgb(255, 255, 255);
+    transition: 1s;
+    
+}
+
+
+
+
+
+
+.nosotros{
+    background-color: transparent;
+    width: 960px;
+    height: auto;
+    margin:auto;
+}
+
+#contenedor-1 img{
+    background-color: #fff;
+    width: 960px;
+    height: 600px;
+    border-radius: 5px;
+    margin-top:20px;
+   
+   
+}
+
+#contenedor-2 .texto2{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Open Sans';
+    
+}
+
+#contenedor-2 h2{
+    color: rgb(47, 94, 155);
+    font-size: 50px;
+    font-family: Anton;
+    
+  
+    
+}
+
+
+#contenedor-3{
+    background-color: transparent;
+    width: 960px;
+    height: 400px;
+   
+    
+}
+
+
+#contenedor-3 .imagen{
+    width: 400px;
+    height: 300px;
+    float:left;
+    margin-top:1em;
+ 
+}
+
+#contenedor-3 .Contacto{
+    width: 500px;
+    height: 300px;
+    float: right;
+    
+ 
+}
+
+
+
+#contenedor-3 .imagen img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+   
+}
+
+#contenedor-3 .Contacto ul li{
+    color:#fff;
+    font-weight: bold;
+    padding:5%;
+}
+
+#contenedor-3 .Contacto h2{
+   
+    position:relative;
+    left: 2em;
+    color: rgb(47, 94, 155);
+    font-size: 40px;
+    font-family: Anton, Vernon, adams;
+   
+}
+
+#contenedor-3 .contacto{
+    margin: 20px;
+    
+}
+
+fieldset{
+   
+    height: 380px;
+}
+
+legend{
+    
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    
+}
+
+.gif img{
+    width: 300px;
+    height: 250px;
+    display:block;
+    float: right;
+    border-radius: 10px;
+}
+
+.footernosotros{
+    
+    background-color:transparent;
+    width: 960px;
+    height: 120px;
+    margin: 0 auto;
+    color:#fff;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#contenidofooter{
+    font-size: 15px;
+    padding:10px;
+    text-align: center;
+    
+}
+
+
+/* ================ NOSOTROS RESPONSIVE =================== */
+
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px) {
+
+    body{
+        margin:10px;
+        
+    }
+
+    .nosotros{
+        width: 100%;
+        height: auto;
+       
+    }
+
+    header{
+        width: 100%;
+        height: 250px;
+        
+    }
+
+    h1{
+       
+        font-family:Anton;
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 5px 5px 5px rgba(253, 253, 253, 0.493);
+        
+    }
+    
+    .logo img{
+        float:right;
+        width: 20%;
+        border-radius: 20px 2px 20px 2px;
+        
+    }
+    
+    #contenedor-1 img{
+        
+        width: 100%;
+        height: auto;
+     
+    }
+    
+    #contenedor-2 .texto2{
+       
+        text-align: center;
+        font-size: 30px;
+        
+    }
+    
+    #contenedor-2 h2{
+        color:rgb(47, 94, 155);
+        font-size: 50px;
+        text-align: center;
+        
+    }
+
+    .gif img{
+        width: 400px;
+        height: 350px;
+        display:block;
+        float: none;
+        margin:auto;
+    }
+    
+    
+    #contenedor-3{
+        width: 100%;
+        height: auto;
+    }
+
+    #contenedor-3 .imagen{
+        width: 50%;
+        height: auto;
+        float:left;
+        margin-top:1em;
+     
+    }
+    
+    #contenedor-3 .Contacto{
+        width:50%;
+        height: auto;
+        float: right;
+        
+     }
+    
+    #contenedor-3 .imagen img{
+        width: 20em;
+        height: 20em;
+        
+    }
+
+    #contenedor-3 .Contacto h2{
+        color:rgb(47, 94, 155);
+        font-size: 30px;
+    }
+    
+    #contenedor-3 .Contacto ul li{
+        font-size: 15px;
+        font-weight: bold;
+        padding:5%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    legend{
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        
+    }
+
+    fieldset{
+        
+        height: auto;
+    }
+    
+    
+    .footernosotros{
+        background-color:transparent;
+        width:100%;
+        height: auto;
+        
+        
+    }
+
+    #contenidofooter{
+        font-size: 12px;
+        padding:5px;
+        text-align: center;
+        
+    }
+
+}
+
+@media handheld, screen and (max-width:599px) {
+
+    .nosotros{
+        
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        
+    }
+
+    header{
+       
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+        
+    }
+    
+    
+    
+    h1{
+        font-size: 2em;
+        display: block;
+    }
+
+    .botonesnav ul{
+        list-style-type: none;
+        margin:auto;
+    }
+    
+    .Menu-nav{
+        position: relative;
+        width: 45%;
+
+        
+    }
+        
+    .Menu-nav li {
+        position: relative;
+        display: block;
+        
+    }
+    
+    .Menu-nav li a {
+        font-size: 1.3em;
+        margin:1px;
+        padding:0.5em;
+        
+    }
+
+    
+
+    .Menu-nav li:hover .submenu-nav{
+        
+        display:block;
+        
+    }
+
+    .icono{
+        text-align: center;
+        position:relative;
+        bottom:2px;
+     
+    }
+    
+    #contenedor-1 img{
+      
+        width: 97%;
+        height: auto;
+     
+    }
+    
+    #contenedor-2 .texto2{
+       
+        text-align: center;
+        font-size: 17px;
+        padding:2em;
+        
+    }
+    
+    #contenedor-2 h2{
+        color:rgb(47, 94, 155);
+        font-size: 30px;
+        text-align: center;
+        
+    }
+
+    .gif img{
+        width:100%;
+        height: auto;
+        display:block;
+        float: none;
+        margin:auto;
+    }
+    
+    
+    #contenedor-3{
+        width: 100%;
+        height: auto;
+    }
+
+    #contenedor-3 .imagen{
+        width: 50%;
+        height: auto;
+        float:left;
+        margin-top:1em;
+     
+    }
+    
+    #contenedor-3 .Contacto{
+        width:50%;
+        height: auto;
+        float: right;
+        
+     }
+    
+    #contenedor-3 .imagen img{
+        width: 12em;
+        height: 12em;
+        
+    }
+
+    #contenedor-3 .Contacto h2{
+        color:rgb(47, 94, 155);
+        font-size: 25px;
+    }
+    
+    #contenedor-3 .Contacto ul li{
+        font-size: 11px;
+        font-weight: bold;
+        padding:5%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    legend{
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        
+    }
+
+    fieldset{
+        width: 87%;
+        height: auto;
+    }
+    
+    
+    .footernosotros{
+        background-color:transparent;
+        width:100%;
+        height: auto;
+        
+        
+    }
+
+    #contenidofooter{
+        font-size: 12px;
+        padding:5px;
+        text-align: center;
+        
+    }
+
+}
+/* ================ NOSOTROS RESPONSIVE =================== */

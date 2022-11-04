@@ -1,0 +1,431 @@
+
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+    background-image: url(/Evaluacion-4/imagenes/Fondoservicios2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+body::-webkit-scrollbar{
+    width:5px;
+   
+    
+  }
+  
+   
+body::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius:15px;
+  }
+  
+
+
+    /* ===== body =======*/
+
+
+
+
+    /* ====== HEADER =======*/
+
+header{
+    background-image: url(/Evaluacion-4/imagenes/banner321.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 960px;
+    height: 300px;
+    margin: 0px auto;
+    border-radius:10px;
+}
+
+
+/* MENU DESPLEGABLE */
+
+
+.botonesnav ul{
+	list-style-type: none;
+    text-align: center;
+	padding:0;
+    
+	}
+
+
+
+.Menu-nav{
+    position: relative;
+    top:80px;
+ }
+    
+.Menu-nav li {
+	position: relative;
+	display: inline-block;
+    margin:5px;
+   
+}
+.Menu-nav li a {
+	display:block;
+    font-size: 30px;
+    font-weight: bolder;
+    color:rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 1.7px solid rgb(0, 0, 0);
+    
+}
+
+
+
+
+.Menu-nav li a:hover {
+    background-color: rgba(80, 147, 201, 0.842);
+    color:rgb(255, 255, 255);
+   
+    transition: 1s;
+	}
+
+
+
+/*  Nav Despelgable 
+
+.submenu-nav li a:hover {
+    background-color: rgb(22, 88, 187);
+    color:rgb(255, 255, 255);
+    transition: 1.8s;
+ }
+
+    
+.submenu-nav {
+	position: absolute;
+	background-color: #000000;
+	width: 100%;
+    height: 180px;
+	display:none;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    text-align: center;
+   
+   
+    
+}
+
+.submenu-nav li a {
+	display: block;
+    margin: 5px;
+	padding: 10px;
+	color:#fff;
+	font-family: Arial, Verdana, Tahoma;
+	text-decoration: none;
+    font-size: 18px;
+    border:none;
+    
+}
+.Menu-nav li:hover .submenu-nav{
+    
+   display: block;
+
+    Nav Despelgable 
+} */
+
+    
+.icono{
+        
+    font-size: 18px;
+    text-align: center;
+    position:relative;
+    bottom:5px;
+    padding:5px;
+}
+  
+
+
+ h1{
+    color: rgb(0, 0, 0);
+    font-family:Anton;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+    
+    
+
+}
+
+.Servicios{
+    background-color: transparent;
+    width: 960px;
+    height: auto;
+    margin:auto;
+}
+
+.Cuadrado{
+    margin-top:50px;
+    border-radius: 10px;
+    display:block;
+    width: 100%;
+    height:auto;
+    background-color: rgba(255, 255, 255, 0.2) ;
+    
+}
+
+.Cuadrado .imagenSer{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.Cuadrado .imagenSer img{
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius:20px;
+    margin:10px;
+    
+}
+
+
+
+
+.Cuadrado .tituloSer h4{
+    font-family: anton;
+    margin:auto;
+    width:50%;
+    font-size: 3em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.925);
+    font-weight: bold;
+    background-color:rgba(25, 113, 236, 0.212);
+    border-radius: 10px;
+}
+
+.Cuadrado .ParrafoSer{
+    text-align: left;
+    color: rgb(3, 2, 2);
+    
+}
+
+.Cuadrado .ParrafoSer ul{
+    text-align: center;
+    color: rgb(3, 2, 2);
+    font-weight: bold;
+    
+}
+
+.Cuadrado .ParrafoSer ul li{
+    list-style-position:inside;
+    text-align: center;
+    color: rgb(59, 97, 146);
+    padding:1em;
+    
+}
+
+
+
+
+
+
+
+.footerServicios{
+    background-color: rgba(0, 0, 0, 0.877);
+    width: 960px;
+    height: 120px;
+    margin:0 auto;
+    color:rgb(255, 255, 255);
+}
+
+#contenidofooter{
+    font-size: 15px;
+    padding:10px;
+    text-align: center;
+    
+}
+
+
+/* ============ Servicios Responsive ============ */
+
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px) {
+
+    body{
+        margin:10px;
+        
+    }
+
+    .Servicios{
+        width: 100%;
+        height: auto;
+       
+    }
+
+    header{
+        width: 100%;
+        height: 300px;
+        
+    }
+
+    h1{
+       
+        font-family:Anton;
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+        
+    }
+    
+    .Cuadrado{
+        
+        width: 100%;
+        height: auto;
+    }
+        
+
+
+
+
+
+    .footerServicios{
+        
+        background-color:black;
+        width:100%;
+        height: auto;
+            
+            
+    }
+
+    #contenidofooter{
+        font-size: 12px;
+        padding:5px;
+        text-align: center;
+            
+    }
+
+}
+
+@media handheld, screen and (max-width:599px) {
+
+    .Servicios{
+        
+        width: 100%;
+        height: auto;
+       
+        
+        
+    }
+
+    header{
+       
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+        
+    }
+    
+    
+
+    h1{
+        font-size: 2em;
+        display: block;
+    }
+
+    .botonesnav ul{
+        list-style-type: none;
+        
+    }
+    
+    .Menu-nav{
+        position: relative;
+        width: 45%;
+       
+    }
+        
+    .Menu-nav li {
+        position: relative;
+        display: block;
+        
+    }
+    
+    .Menu-nav li a {
+        font-size: 1.3em;
+        margin:1px;
+        padding:0.5em;
+        text-align: center;
+      }
+
+    
+
+    .Menu-nav li:hover .submenu-nav{
+        
+        display:block;
+        
+    }
+
+    .icono{
+        text-align: center;
+        position:relative;
+        bottom:2px;
+     
+    }
+
+    
+    
+    
+    .Cuadrado{
+        
+        width: 100%;
+        height: auto;
+    }
+        
+    .Cuadrado .imagenSer img{
+       
+       width: 11em;
+        
+        
+    }
+    
+    
+    
+    
+    .Cuadrado .tituloSer h4{
+       
+        width:60%;
+        font-size: 2em;
+
+    }
+    
+    .Cuadrado .ParrafoSer{
+        
+        font-size: 12px;
+        text-align: center;
+        padding-right:3em;
+   
+    }
+    
+    .Cuadrado .ParrafoSer ul{
+        text-align: center;
+        color: rgb(3, 2, 2);
+        font-weight: bold;
+        
+    }
+    
+    
+    
+    .footerServicios{
+        
+        background-color:black;
+        width:100%;
+        height: auto;
+            
+            
+    }
+
+    #contenidofooter{
+        font-size: 12px;
+        padding:5px;
+        text-align: center;
+            
+    }
+
+}
+/* ================ SERVICIOS RESPONSIVE =================== */
