@@ -5,7 +5,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family:'Open Sans', sans-serif;
-    background-image: url(/Evaluacion-4/imagenes/fondoNosotros.jpg);
+    background-image: url(/imagenes/fondoNosotros.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
